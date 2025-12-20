@@ -1,4 +1,7 @@
-
+──────────────────────────────────────────────
+   DIRECT PC-TO-PC CONNECTION USING
+        ETHERNET CROSSOVER CABLE
+──────────────────────────────────────────────
 
 - we have two computers 
 - first we connect both of them using cross over cable 
