@@ -6,5 +6,7 @@
 - we have two computers 
 - first we connect both of them using cross over cable 
 - assign ip address to both the pc (i am not using any subnets for now as we have only two computers)
+- set the ip pc1 is 10.10.10.1 and pc2 is 10.10.10.2
+- 
 
 
