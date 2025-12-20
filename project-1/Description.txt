@@ -1,12 +1,44 @@
-──────────────────────────────────────────────
-   DIRECT PC-TO-PC CONNECTION USING
-        ETHERNET CROSSOVER CABLE
-──────────────────────────────────────────────
+╔══════════════════════════════════════════════╗
+║                                              ║
+║        DIRECT PC-TO-PC NETWORK SETUP         ║
+║                                              ║
+║        (Crossover Cable Configuration)       ║
+║                                              ║
+╚══════════════════════════════════════════════╝
+
 
 - we have two computers 
 - first we connect both of them using cross over cable 
 - assign ip address to both the pc (i am not using any subnets for now as we have only two computers)
 - set the ip pc1 is 10.10.10.1 and pc2 is 10.10.10.2
-- 
+
+
+- pc 1 
+
+
+C:\>ipconfig
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::207:ECFF:FE9D:E228
+   IPv6 Address....................: ::
+   IPv4 Address....................: 10.10.10.1
+   Subnet Mask.....................: 255.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
+
+
+- pc 2 
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Link-local IPv6 Address.........: FE80::200:CFF:FEB1:3C00
+   IPv6 Address....................: ::
+   IPv4 Address....................: 10.10.10.2
+   Subnet Mask.....................: 255.0.0.0
+   Default Gateway.................: ::
+                                     0.0.0.0
 
 
