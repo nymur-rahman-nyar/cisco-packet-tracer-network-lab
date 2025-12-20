@@ -13,7 +13,7 @@
 - set the ip pc1 is 10.10.10.1 and pc2 is 10.10.10.2
 
 
-- pc 1 
+- pc 1 ip address confirmation
 
 
 C:\>ipconfig
@@ -29,7 +29,7 @@ FastEthernet0 Connection:(default port)
                                      0.0.0.0
 
 
-- pc 2 
+- pc 2 ip address confirmation 
 
 FastEthernet0 Connection:(default port)
 
@@ -41,4 +41,25 @@ FastEthernet0 Connection:(default port)
    Default Gateway.................: ::
                                      0.0.0.0
 
+
+- pc 1 mac address 
+
+C:\>ipconfig /all
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Physical Address................: 0007.EC9D.E228
+   Link-local IPv6 Address.........: FE80::207:ECFF:FE9D:E228
+
+
+- pc 2 mac address  
+
+C:\>ipconfig /all
+
+FastEthernet0 Connection:(default port)
+
+   Connection-specific DNS Suffix..: 
+   Physical Address................: 0000.0CB1.3C00
+   Link-local IPv6 Address.........: FE80::200:CFF:FEB1:3C00
 
