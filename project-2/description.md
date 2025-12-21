@@ -18,5 +18,5 @@
 ## What I learned
 
 - Hub is good for small local area network for its cheap cost
-- I would work best, if we wanna create smaller Air-gapped network .
+- It would work best for creating smaller Air-gapped network .
 - However, its bad for larger network because it would send the same packet to the whole network and it would not be efficient.
