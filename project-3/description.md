@@ -1,4 +1,4 @@
-## USING HUB
+## USING SWITCH
 
 - Using Switch in a network
 
@@ -8,7 +8,12 @@
 - added six computers
 - connected them using stright through cable as they are different device type
   ![Alt text](./src/f1.png)
--
+- Now i will assign ip address to each of the computer
+- checking one of the computer to see if ip address was assigned
+  ![Alt text](./src/f2.png)
+- used simulation mode to see how packet travels through the network
+- it is uni-casting , not broadcasting to the entire network like a hub
+  ![Alt text](./src/f3.png)
 
 ## What I learned
 
