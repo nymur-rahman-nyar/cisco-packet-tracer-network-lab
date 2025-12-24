@@ -25,7 +25,51 @@
         Minimum = 0ms, Maximum = 0ms, Average = 0ms
 ```
 
--
+```
+    C:\>ping 192.168.1.2
+
+    Pinging 192.168.1.2 with 32 bytes of data:
+
+    Reply from 192.168.1.2: bytes=32 time<1ms TTL=128
+    Reply from 192.168.1.2: bytes=32 time<1ms TTL=128
+    Reply from 192.168.1.2: bytes=32 time<1ms TTL=128
+    Reply from 192.168.1.2: bytes=32 time<1ms TTL=128
+
+    Ping statistics for 192.168.1.2:
+        Packets: Sent = 4, Received = 4, Lost = 0 (0% loss),
+    Approximate round trip times in milli-seconds:
+        Minimum = 0ms, Maximum = 0ms, Average = 0ms
+```
+
+- Connected the two LAN network using copper straight through cable
+- used the gigabit ports of the switch to connect to the router
+- turned on the router
+- letting the router initialize the connection
+- setting the ip address of LAN 1 to 10.0.0.5
+- turned on the port in the config settings
+- setting the ip address of LAN 2 to 192.168.1.4
+- turned the port on in the config settings
+- updating default gateway of each computer in the networks
+  ![Alt text](./src/f1.png)
+- tried to ping a pc in LAN2 from LAN1 and it don't work
+- updated the default gateway on both network
+
+```
+    C:\>ping 192.168.1.3
+
+    Pinging 192.168.1.3 with 32 bytes of data:
+
+    Request timed out.
+    Reply from 192.168.1.3: bytes=32 time<1ms TTL=127
+    Reply from 192.168.1.3: bytes=32 time<1ms TTL=127
+    Reply from 192.168.1.3: bytes=32 time<1ms TTL=127
+
+    Ping statistics for 192.168.1.3:
+        Packets: Sent = 4, Received = 3, Lost = 1 (25% loss),
+    Approximate round trip times in milli-seconds:
+        Minimum = 0ms, Maximum = 0ms, Average = 0ms
+
+```
 
 ## What I learned :
 
