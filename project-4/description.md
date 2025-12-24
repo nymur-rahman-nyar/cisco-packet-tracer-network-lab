@@ -74,6 +74,7 @@
 ## What I learned :
 
 - router is a networking device that forwards data packets between computer network
+- first packet is broadcasted and after that the other packets are unicasted , thats why we have a lost packet in our first connection
 - connects different network (LAN) not devices
 - Its a layer 3 device (working in network layer)
 - router has a memory which store the routing table of different networks
