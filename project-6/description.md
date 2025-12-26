@@ -1,6 +1,4 @@
-# USING BRIDGE
-
-### Logging Activities :
+# Bridge:
 
 ## What I learned :
 
