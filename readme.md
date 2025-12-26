@@ -5,3 +5,4 @@
 - project 3 : switch
 - project 4 : routers
 - project 5 : repeater
+- project 6 : bridge
