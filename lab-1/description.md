@@ -11,3 +11,17 @@ Here, i am doing the initial setup.
 - `configure terminal` used command to configure the router (global config mode)
 - `Router(config)#ip host server1 1.1.1.1`
 - `Router(config)#ip host server2 2.2.2.2`
+- using show command in config global config mode `do show ip interface brief`
+
+```
+Router(config)#do show ip interface brief
+Interface              IP-Address      OK? Method Status                Protocol
+GigabitEthernet0/0     unassigned      YES unset  administratively down down
+GigabitEthernet0/1     unassigned      YES unset  administratively down down
+GigabitEthernet0/2     unassigned      YES unset  administratively down down
+Vlan1                  unassigned      YES unset  administratively down down
+Router(config)#
+
+```
+
+- we got the brief of the interface of the inteface
