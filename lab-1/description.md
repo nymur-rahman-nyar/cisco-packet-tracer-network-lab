@@ -34,3 +34,10 @@ Router(config-if)#
 
 - i used `exit` to move back to a level
 - i can also use pipeline `show run | begin Hostname` however, i don't know how to use it yet , gonna make sure to use it later
+
+- in the configure terminal we can update and see it asap
+
+```
+router1(config)#hostname Nymur'sRouter
+Nymur'sRouter(config)#
+```
