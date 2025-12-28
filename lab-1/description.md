@@ -32,7 +32,7 @@ Router(config)#interface GigabitEthernet 0/0
 Router(config-if)#
 ```
 
-- i used `exit` to move back to a level
+- i used `exit` to move back to the previous level
 - i can also use pipeline `show run | begin Hostname` however, i don't know how to use it yet , gonna make sure to use it later
 
 - in the configure terminal we can update and see it asap
