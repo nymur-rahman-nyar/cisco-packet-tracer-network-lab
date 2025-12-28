@@ -1,3 +1,5 @@
+# The IOS Operating System
+
 # Logs:
 
-- `enable`. to go to priviledge mode
+- used `enable` to go to priviledge mode
