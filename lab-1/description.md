@@ -25,3 +25,11 @@ Router(config)#
 ```
 
 - we got the brief of the interface of the inteface
+- now i will configure one of the ports
+
+```
+Router(config)#interface GigabitEthernet 0/0
+Router(config-if)#
+```
+
+-
