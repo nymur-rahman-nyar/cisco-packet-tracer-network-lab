@@ -7,3 +7,7 @@ push:
 	git add .
 	git commit -m "Update project files"
 	git push
+
+commit:
+	git add .
+	git diff --cached --quiet || git commit -m "Update project files"

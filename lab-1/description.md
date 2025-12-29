@@ -42,4 +42,4 @@ router1(config)#hostname Nymur'sRouter
 Nymur'sRouter(config)#
 ```
 
--- will continue this tomorrow
+-- running cofiguration
